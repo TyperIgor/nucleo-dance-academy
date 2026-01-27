@@ -1,0 +1,124 @@
+:host {
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+/* Hero */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+  url('https://images.unsplash.com/photo-1508804185872-d7badad00f7d') center/cover no-repeat;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo { font-size: 1.6rem; font-weight: 700; }
+
+.menu { list-style: none; display: flex; gap: 24px; }
+.menu a { color: #fff; text-decoration: none; font-weight: 500; }
+
+.hero-content {
+  padding: 120px 60px;
+  max-width: 600px;
+}
+
+.hero-content h2 { font-size: 3rem; margin-bottom: 20px; }
+.hero-content p { font-size: 1.1rem; margin-bottom: 30px; }
+
+.btn-primary {
+  display: inline-block;
+  background: #e63946;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #25d366;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Sections */
+.section { padding: 80px 60px; }
+.section-title { text-align: center; margin-bottom: 50px; font-size: 2.2rem; }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: #fafafa;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+/* About */
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.about img { width: 100%; border-radius: 20px; }
+
+/* Schedule */
+.dark { background: #111; color: #fff; }
+.schedule { width: 100%; border-collapse: collapse; margin-top: 30px; }
+.schedule th, .schedule td {
+  padding: 15px;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+/* Contact */
+.contact { background: #f7f7f7; }
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+/* Footer */
+.footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 24px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar, .section, .hero-content { padding: 20px; }
+  .hero-content h2 { font-size: 2.2rem; }
+  .about { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,93 @@
+<header class="hero">
+  <nav class="navbar">
+    <h1 class="logo">Dance Academy</h1>
+    <ul class="menu">
+      <li><a href="#classes">Aulas</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#schedule">Horários</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero-content">
+    <h2>Descubra a sua paixão pela dança</h2>
+    <p>Ballet, Jazz, Hip Hop e Dança Contemporânea para todos os níveis.</p>
+    <a href="#contact" class="btn-primary">Agende uma aula experimental</a>
+  </div>
+</header>
+
+<section id="classes" class="section">
+  <h2 class="section-title">Nossas Aulas</h2>
+
+  <div class="cards">
+    <div class="card" *ngFor="let aula of ['Ballet Clássico','Hip Hop','Jazz Dance','Contemporâneo']">
+      <h3>{{ aula }}</h3>
+      <p>Aulas focadas em técnica, expressão corporal e evolução contínua.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <div class="about-text">
+    <h2>Sobre a Academia</h2>
+    <p>
+      Somos uma academia de dança dedicada ao desenvolvimento artístico,
+      bem-estar e inclusão. Aqui, cada aluno evolui no seu próprio ritmo.
+    </p>
+    <p>
+      Professores qualificados, ambiente acolhedor e paixão pela dança.
+    </p>
+  </div>
+  <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Dança">
+</section>
+
+<section id="schedule" class="section dark">
+  <h2 class="section-title">Horários</h2>
+
+  <table class="schedule">
+    <tr>
+      <th>Dia</th>
+      <th>Modalidade</th>
+      <th>Horário</th>
+    </tr>
+    <tr>
+      <td>Segunda</td>
+      <td>Ballet</td>
+      <td>18:00 - 19:30</td>
+    </tr>
+    <tr>
+      <td>Quarta</td>
+      <td>Hip Hop</td>
+      <td>19:00 - 20:30</td>
+    </tr>
+    <tr>
+      <td>Sexta</td>
+      <td>Jazz</td>
+      <td>18:30 - 20:00</td>
+    </tr>
+  </table>
+</section>
+
+<section id="contact" class="section contact">
+  <h2 class="section-title">Entre em Contato</h2>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Nome" required>
+    <input type="email" placeholder="Email" required>
+    <input type="tel" placeholder="Telefone">
+    <textarea rows="4" placeholder="Mensagem"></textarea>
+    <button class="btn-primary" type="submit">Enviar</button>
+  </form>
+</section>
+
+<a
+  class="btn-whatsapp"
+  href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20aula%20experimental."
+  target="_blank"
+>
+  Falar no WhatsApp
+</a>
+
+<footer class="footer">
+  <p>© 2026 Dance Academy · Todos os direitos reservados</p>
+</footer>
