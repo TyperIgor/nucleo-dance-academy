@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { Landing } from '../../components/landing/landing';
+import { Header } from '../../components/header/header';
 
 @Component({
   selector: 'app-home',
-  imports: [Landing],
+  imports: [Header,Landing],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

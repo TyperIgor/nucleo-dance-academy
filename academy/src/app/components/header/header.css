@@ -1,0 +1,43 @@
+:host {
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+/* Hero */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+  url("/assets/gifs/nucleogif.gif") center/cover no-repeat;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo { font-size: 1.6rem; font-weight: 700; }
+
+.menu { list-style: none; display: flex; gap: 24px; }
+.menu a { color: #fff; text-decoration: none; font-weight: 500; }
+
+.hero-content {
+  padding: 120px 60px;
+  max-width: 600px;
+}
+
+.hero-content h2 { font-size: 3rem; margin-bottom: 20px; }
+.hero-content p { font-size: 1.1rem; margin-bottom: 30px; }
+
+.btn-primary {
+  display: inline-block;
+  background: #e63946;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
