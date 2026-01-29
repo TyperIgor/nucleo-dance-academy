@@ -51,10 +51,15 @@ export class Landing {
   ];
 
   galleryImages = [
-  '/assets/img/img3.jpg',
-  '/assets/img/img5.jpg',
+  '/assets/img/nucleo-people.JPEG',  
+  '/assets/img/background-nucleo-img.jpg',
+  '/assets/img/nucleo-test.jpg',
+  '/assets/img/moment-nucleo.JPG',
+  '/assets/img/nucleo2.jpg',
+  '/assets/img/Nucleo5.jpg',
+  '/assets/img/Nucleo4.jpg',
+  '/assets/img/Nucleo3.jpg',
 ];
-
 
   breakpoints = {
     640: {
@@ -64,4 +69,44 @@ export class Landing {
       slidesPerView: 3.5
     }
   };
+
+ public schedule = [
+    {
+      day: 'Segunda',
+      classes: [
+        'Jazz 18h - 19h', 'Hip Hop Iniciante II 19h30 - 20h30 ', 'Coreografia 20h30 - 21h30',
+      ]
+    },
+    {
+      day: 'Terça',
+      classes: [
+      'Alongamento - 19h30 - 20h30', 'Jazz & Contemporâneo 20h30 - 21h30',
+      ]
+    },
+    {
+      day: 'Quinta',
+      classes: [
+        'K-Pop 17h30 - 18h30',
+        'Afro 18h30 - 19h30',
+        'Dancehall & Coreografia 19h30 - 20h30'
+      ]
+    },
+    {
+      day: 'Sexta',
+      classes: [
+        'Jersey 18h - 19h ',
+        'Jazz Funk 19h - 20h',
+        'Heels 20h - 21h',
+        'MasterClass 21h - 22h'
+      ]
+    },
+    {
+      day: 'Sábado',
+      classes: [
+        'Jazz Funk 10h - 11h',
+        'Hip Hop Iniciante I 11h - 12h'
+      ]
+    }
+  ];
+
 }
