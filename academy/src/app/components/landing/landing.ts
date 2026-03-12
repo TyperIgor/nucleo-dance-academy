@@ -31,7 +31,7 @@ export class Landing {
     },
     {
       name:'Jazz Funk',
-      description:'Mistura de jazz com street dance, focado em atitude e performance.'
+      description:'Mistura das Danças Acadêmicas e Urbanas, focado em atitude e performance.'
     },
     {
       name:'DanceHall',
@@ -59,7 +59,7 @@ export class Landing {
     },
     {
       name:'Vogue',
-      description:'Estilo inspirado na cultura ballroom, com poses dramáticas e movimentos estilizados.'
+      description:'Estilo inspirado na "Cultura Ballroom", com poses dramáticas e movimentos estilizados.'
     }
   ];
   galleryImages = [
